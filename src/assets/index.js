@@ -55,7 +55,7 @@ import microverse from './company/microverse.png';
 
 import komikult from './projects/aws_1.jpg';
 import leaderboard from './projects/aws_2.jpg';
-import math from './projects/Portfolioimg.png';
+import math from './projects/portfolioimg.png';
 import movie from './projects/javaimage.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
