@@ -4,6 +4,7 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { shaq, bwmap, worldmap } from '../assets';
 
+
 const Hero = () => {
   return (
     <>
@@ -88,6 +89,8 @@ const Hero = () => {
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
             alt="shaquille"
+            onContextMenu={(e) => e.preventDefault()}  // Disable right-click
+            onDragStart={(e) => e.preventDefault()}   // Disable dragging
           />
         </div>
       </section>
