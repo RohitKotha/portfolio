@@ -31,5 +31,21 @@ const styles = {
   sectionSubTextLight:
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
 };
+//added style we can remove 
+const cursorStyles = {
+  pointer: {
+    position: "fixed",   // Changed from absolute to fixed
+    top: 0,
+    left: 0,
+    width: "22px",
+    height: "22px",
+    background: "#a5d95a",
+    transform: "rotate(45deg)",
+    boxShadow: "0 0 20px #a5d95a",
+    outline: "2px solid #a5d95a",
+    pointerEvents: "none", // Ensures it doesn’t interfere with clicks
+    zIndex: 9999,         // Ensures visibility above all content
+  }
+};
 
-export { styles };
+export { styles, cursorStyles };
