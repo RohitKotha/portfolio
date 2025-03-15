@@ -21,6 +21,7 @@ import {
   tailwind,
   nodejs,
   git,
+  agent,
   figma,
   docker,
   postgresql,
@@ -191,8 +192,8 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/RohitKotha/Iship_project1',
+    demo: 'https://github.com/RohitKotha/Iship_project1',
   },
   {
     id: 'project-2',
@@ -214,8 +215,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/RohitKotha/Iship_2-Project',
+    demo: 'https://github.com/RohitKotha/Iship_2-Project',
   },
   {
     id: 'project-3',
@@ -236,11 +237,22 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/RohitKotha/portfolio',
+    demo: 'https://rohitkotha.vercel.app/',
   },
   {
     id: 'project-4',
+    name: 'Stock-Analysis-Agent',
+    description: `Created an agent using python, that give info about stocks and analysis the stocks.`,
+    tags: [
+     
+    ],
+    image: agent,
+    repo: 'https://github.com/RohitKotha/Stock_Analysis_Agent',
+    demo: 'https://rohitstockanalysis.streamlit.app/',
+  } ,
+  {
+    id: 'project-5',
     name: 'Java-Teachers-DB',
     description: `Created an application using java and used backend services like Mysql and managed and stored teachers.`,
     tags: [
@@ -258,8 +270,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/RohitKotha',
+    demo: 'https://github.com/RohitKotha',
   } ,
 ];
 

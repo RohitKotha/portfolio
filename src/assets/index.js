@@ -59,6 +59,7 @@ import math from './projects/portfolioimg.png';
 import movie from './projects/javaimage.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import agent from './projects/agent.png';
 
 export {
   bwmap,
@@ -76,6 +77,7 @@ export {
   github,
   githubicon,
   vsicon,
+  agent,
   close,
   download,
   downloadHover,
